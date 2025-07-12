@@ -1,10 +1,11 @@
-# Build stage (JDK needed for compilation)
-FROM eclipse-temurin:17-jdk-jammy AS builder
+# Build stage
+FROM maven:3.8.6-eclipse-temurin-17 AS builder
 WORKDIR /workspace
-COPY . .
-RUN chmod +x mvnw && ./mvnw clean package
+COPY pom.xml .
+COPY src ./src
+RUN mvn clean package -DskipTests
 
-# Run stage (JRE only - smaller image)
+# Run stage
 FROM eclipse-temurin:17-jre-jammy
 WORKDIR /app
 COPY --from=builder /workspace/target/*.jar app.jar
