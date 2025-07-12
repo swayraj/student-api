@@ -9,11 +9,6 @@
 - 📝 Swagger documentation
 - 🚦 Input validation
 
-## Quick Start
-```bash
-# Run Ollama first (in another terminal)
-ollama pull llama3.2
-ollama serve
+## 🚀 API Testing
 
-# Then start the app
-mvn spring-boot:run
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/technical-astronaut-45888591/student-api/collection/prtaidk/student-tester?action=share&creator=46691704)
