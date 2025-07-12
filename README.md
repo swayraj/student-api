@@ -12,3 +12,6 @@
 ## 🚀 API Testing
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/technical-astronaut-45888591/student-api/collection/prtaidk/student-tester?action=share&creator=46691704)
+
+## API Docs
+
