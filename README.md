@@ -15,3 +15,4 @@
 
 ## API Docs
 
+![image alt](https://github.com/swayraj/student-api/blob/d0f1f894482443d5950b9f24211e9338dce2346f/Screenshot%202025-07-12%20202624.png)
